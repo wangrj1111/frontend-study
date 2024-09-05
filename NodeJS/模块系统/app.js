@@ -1,5 +1,5 @@
-// const path= require('path')
-// console.log(path.resolve(__filename))
+const path= require('path')
+console.log(path.resolve(__filename))
 
 //REPL 模式 
 

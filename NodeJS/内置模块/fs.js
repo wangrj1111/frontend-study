@@ -1,16 +1,13 @@
 const fs=require('fs')
-fs.readFile ('C:\Users\wang\OneDrive\Desktop\frontend-study\NodeJS\内置模块\text.txt',
-    'utf-8',
-   (err,data)=>{
+fs.readFile ('./text.txt','utf-8', (err,data)=>{
     console.log('文件内容是：',data)
-}
-)
+})
 
-//同步写入文件
+// 同步写入文件
 try{
     let content='新的文件内容'
     fs.writeFileSync(
-        'C:\Users\wang\OneDrive\Desktop\frontend-study\NodeJS\内置模块\text.txt',
+        './text.txt',
         content
     )
 }catch(err){
@@ -19,7 +16,7 @@ try{
 
 try{
     let status=fs.statSync(
-        'C:\Users\wang\OneDrive\Desktop\frontend-study\NodeJS\内置模块\text.txt',
+        './text.txt',
     )
     console.log(status.isFile())
     console.log(status.isDirectory)
