@@ -14,8 +14,16 @@
     <!-- <WuKong5/> -->
      <!-- <Equipmentma/> -->
       <!-- <scrollToSkills/> -->
-       <Modify/>
+       <!-- <Modify/> -->
         <!-- <PreventSubmit/> -->
+     <!-- <userForm/> -->
+      <!-- <UserProfileParent/> -->
+       <!-- <userFormParent/> -->
+        <!-- <SendEmail/> -->
+         <!-- <DataFetcher/> -->
+          <!-- <CardParent/> -->
+           <!-- <Login/> -->
+            <ListProducts/>
   </div>
 </template>
 
@@ -36,5 +44,13 @@ import Equipmentma from './components/Equipmentma.vue';
 import scrollToSkills from './components/scrollToSkills.vue';
 import Modify from './components/Modify.vue';
 import PreventSubmit from './components/PreventSubmit.vue';
+import userForm from './components/userForm.vue';
+import UserProfileParent from './components/UserProfileParent.vue';
+import userFormParent from './components/userFormParent.vue';
+import SendEmail from './components/SendEmail.vue';
+import DataFetcher from './components/DataFetcher.vue';
+import CardParent from './components/CardParent.vue';
+import Login from './components/Login.vue';
+import ListProducts from './components/ListProducts.vue';
 </script>
 
