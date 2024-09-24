@@ -23,7 +23,9 @@
          <!-- <DataFetcher/> -->
           <!-- <CardParent/> -->
            <!-- <Login/> -->
-            <ListProducts/>
+            <!-- <ListProducts/> -->
+             <!-- <ElementPlus/> -->
+             <ElementPlus1/>
   </div>
 </template>
 
@@ -52,5 +54,12 @@ import DataFetcher from './components/DataFetcher.vue';
 import CardParent from './components/CardParent.vue';
 import Login from './components/Login.vue';
 import ListProducts from './components/ListProducts.vue';
+
+
+import ElementPlus from './components/ElementPlus.vue';
+
+import ElementPlus1 from './components/ElementPlus1.vue';
+
+
 </script>
 
