@@ -23,9 +23,9 @@
          <!-- <DataFetcher/> -->
           <!-- <CardParent/> -->
            <!-- <Login/> -->
-            <!-- <ListProducts/> -->
+            <ListProducts/>
              <!-- <ElementPlus/> -->
-             <ElementPlus1/>
+             <!-- <ElementPlus1/> -->
   </div>
 </template>
 
